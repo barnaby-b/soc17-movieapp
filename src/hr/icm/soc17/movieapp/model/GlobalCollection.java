@@ -8,7 +8,7 @@ public class GlobalCollection {
 	private static ObservableList<Movie> movies;
 	
 	static {
-		movies = FXCollections.emptyObservableList();
+		movies = FXCollections.observableArrayList();
 	}
 	
 	private GlobalCollection() {
